@@ -1,17 +1,25 @@
-# AmTunnel
+# [am-tunnel](https://github.com/ansoncloud8/am-cf-tunnel)
+▶️ **新人[YouTube](https://youtube.com/@AM_CLUB)** 需要您的支持，请务必帮我**点赞**、**关注**、**打开小铃铛**，***十分感谢！！！*** ✅
+</br>🎁 不要只是下载或Fork。请 **follow** 我的GitHub、给我所有项目一个 **Star** 星星（拜托了）！你的支持是我不断前进的动力！ 💖
+</br>✅**解锁更多技术请访问[【个人博客】](https://am.809098.xyz)**
+#
+## 保留旧版本，新版本迁移到这个库  [am-cf-tunnel](https://github.com/ansoncloud8/am-cf-tunnel)
+
 # Cloudflare Workers 和 Pages 生成节点订阅
 
 这是一个基于 Cloudflare Workers 和 Pages平台的脚本，在原版的基础上修改了显示 VLESS 配置信息转换为订阅内容。使用该脚本，你可以方便地将 VLESS、trojan 配置信息使用在线配置转换到 Clash、 Singbox 、Quantumult X等工具中。
 
-- 基础部署视频教程：[小白教程](https://www.youtube.com/watch?v=f9hDJCqAEGA)
-- 快速部署视频教程：[详细教程](https://www.youtube.com/watch?v=8oZvklBkMj4)
-- 进阶使用视频教程：[完整教程](https://www.youtube.com/watch?v=CiSdaNOCyOk) ***最佳推荐!!!***
+- 基础部署视频教程：[小白教程](https://www.youtube.com/watch?v=f9hDJCqAEGA) 小白必看 一步到胃 最佳推荐!!!
+- 快速部署视频教程：[详细教程](https://www.youtube.com/watch?v=XS0EgqckUKo) ***最佳推荐!!!***
+- 进阶使用视频教程：[进阶教程](https://www.youtube.com/watch?v=JDAQYD6bvEM) 折腾自己的优选IP
+- 高级使用视频教程：[高级教程](https://www.youtube.com/watch?v=lQ2Evd_xPRY) 成为折腾的高手
 
-- Telegram交流群：[AM_CLUBS](https://t.me/AM_CLUBS)
-- YouTube频道：[AM科技]https://youtube.com/@AM_CLUB
-- VLESS临时订阅地址：[VLESS](https://worker.amcloud.filegear-sg.me/866853eb-5293-4f09-bf00-e13eb237c655)
-- Github仓库地址：[ansoncloud8](https://github.com/ansoncloud8)
+- 官网教程：[AM科技](https://am.809098.xyz)   YouTube频道：[@AM_CLUB](https://youtube.com/@AM_CLUB)   Telegram交流群：[@AM_CLUBS](https://t.me/AM_CLUBS)   免费订阅：[进群发关键字: 订阅](https://t.me/AM_CLUBS)
 
+## 订阅工具 
+- [(安卓)v2rayNG](https://github.com/2dust/v2rayNG/releases)      [(安卓)singbox](https://github.com/SagerNet/sing-box/releases)      [(苹果)singbox](https://github.com/SagerNet/sing-box/releases)      [(苹果)Hiddify](https://github.com/hiddify/hiddify-next/releases)
+- [(win)v2rayN](https://github.com/2dust/v2rayN/releases)      [(win)singbox](https://github.com/SagerNet/sing-box/releases)      [(win)clashvergerev](https://github.com/clash-verge-rev/clash-verge-rev/releases)      [(win)Hiddify](https://github.com/hiddify/hiddify-next/releases)      [(win)clashnyanpasu](https://github.com/LibNyanpasu/clash-nyanpasu/releases)      [(mac)clashnyanpasu](https://github.com/LibNyanpasu/clash-nyanpasu/releases)
+- [(mac)v2rayU](https://github.com/yanue/V2rayU/releases)      [(mac)singbox](https://github.com/SagerNet/sing-box/releases)      [(mac)clashvergerev](https://github.com/clash-verge-rev/clash-verge-rev/releases)      [(mac)Hiddify](https://github.com/hiddify/hiddify-next/releases)
 
 # 免责声明
 
@@ -106,8 +114,9 @@
 | 变量名 | 示例 | 必填 | 备注 | YT |  |
 |--------|---------|-|-----|-----|--------|
 | UUID | 90cd4a77-141a-43c9-991b-08263cfe9c10 |√| Powershell -NoExit -Command "[guid]::NewGuid()"| [Video](https://www.youtube.com/watch?v=8oZvklBkMj4) |  |
-| PROXYIP | proxyip.fxxk.dedyn.io |×| 备选作为访问CloudFlareCDN站点的代理节点(支持多ProxyIP, ProxyIP之间使用`,`或 换行 作间隔) | [Video](https://youtu.be/CiSdaNOCyOk) |  |
+| PROXYIP | ts.hpc.tw |×| 备选作为访问CloudFlareCDN站点的代理节点(支持多ProxyIP, ProxyIP之间使用`,`或 换行 作间隔) | [Video](https://youtu.be/CiSdaNOCyOk) |  |
 | ADDRESSESAPI | https://raw.githubusercontent.com/ansoncloud8/am-tunnel/dev/ipv4.txt |×| 备选作为优选IP的自己库) | [Video](https://youtu.be/9WoMNrxV0HE) |  |
+| SUBCONFIG  | [https://raw.github.../ACL4SSR_Online_Full_MultiMode.ini](https://raw.githubusercontent.com/amclubs/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini) | clash、singbox等 订阅转换配置文件                            |
 
 
 ## Star 星星走起
@@ -123,7 +132,17 @@
    - 小火箭
    - surge
   
+ #
+▶️ **新人[YouTube](https://youtube.com/@AM_CLUB)** 需要您的支持，请务必帮我**点赞**、**关注**、**打开小铃铛**，***十分感谢！！！*** ✅
+</br>🎁 不要只是下载或Fork。请 **follow** 我的GitHub、给我所有项目一个 **Star** 星星（拜托了）！你的支持是我不断前进的动力！ 💖
+  
+ # 
+<center><details><summary><strong> [点击展开] 赞赏支持 ~🧧</strong></summary>
+*我非常感谢您的赞赏和支持，它们将极大地激励我继续创新，持续产生有价值的工作。*
+  
+- **USDT-TRC20:** `TWTxUyay6QJN3K4fs4kvJTT8Zfa2mWTwDD`
+  
+</details></center>
 
 # 感谢
-[3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel)、[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash/config)、[肥羊订阅转换](https://suburl.v1.mk)
-
+[3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel)、[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash/config)
